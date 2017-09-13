@@ -10,6 +10,7 @@ import ValidatingProps from './ValidatingProps.jsx';
 import TheSetStateExample from './TheSetStateExample.jsx';
 import TheForcedUpdateExample from './TheForcedUpdateExample.jsx';
 import DomHandlerComponent from './DomHandlerComponent.jsx';
+import ContentComponent from './ContentComponent.jsx';
 
 class App extends React.Component {
     render() {
@@ -36,6 +37,7 @@ class App extends React.Component {
             <TheSetStateExample />
             <TheForcedUpdateExample />
             <DomHandlerComponent />
+            <ContentComponent />
             </div>
         );
     }
