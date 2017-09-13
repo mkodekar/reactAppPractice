@@ -11,6 +11,8 @@ import TheSetStateExample from './TheSetStateExample.jsx';
 import TheForcedUpdateExample from './TheForcedUpdateExample.jsx';
 import DomHandlerComponent from './DomHandlerComponent.jsx';
 import ContentComponent from './ContentComponent.jsx';
+import FormSimple from './FormSimple.jsx';
+import FormUpdateFromChild from './FormUpdateFromChild.jsx';
 
 class App extends React.Component {
     render() {
@@ -38,6 +40,8 @@ class App extends React.Component {
             <TheForcedUpdateExample />
             <DomHandlerComponent />
             <ContentComponent />
+            <FormSimple />
+            <FormUpdateFromChild />
             </div>
         );
     }
