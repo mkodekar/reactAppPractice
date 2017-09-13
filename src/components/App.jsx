@@ -5,6 +5,11 @@ import StateComponent from './StateComponent.jsx';
 import PropertyComponents from './PropertyComponents.jsx';
 import DefaultPropertyComponent from './DefaultPropertyComponent.jsx';
 import ReCaptcha from './ReCaptcha.jsx';
+import StateFulComponent from './StateFulComponent.jsx';
+import ValidatingProps from './ValidatingProps.jsx';
+import TheSetStateExample from './TheSetStateExample.jsx';
+import TheForcedUpdateExample from './TheForcedUpdateExample.jsx';
+import DomHandlerComponent from './DomHandlerComponent.jsx';
 
 class App extends React.Component {
     render() {
@@ -26,7 +31,11 @@ class App extends React.Component {
             <PropertyComponents headerprop = "Header from property" contentprop="Content from property"/>
             <DefaultPropertyComponent />
             <ReCaptcha />
-            
+            <StateFulComponent />
+            <ValidatingProps />
+            <TheSetStateExample />
+            <TheForcedUpdateExample />
+            <DomHandlerComponent />
             </div>
         );
     }

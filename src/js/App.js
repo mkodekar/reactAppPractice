@@ -5,6 +5,7 @@ import StateComponent from './StateComponent.jsx';
 import PropertyComponents from './PropertyComponents.jsx';
 import DefaultPropertyComponent from './DefaultPropertyComponent.jsx';
 import ReCaptcha from './ReCaptcha.jsx';
+import StateFulComponent from './StateFulComponent.jsx';
 
 class App extends React.Component {
     render() {
@@ -21,7 +22,8 @@ class App extends React.Component {
             React.createElement(StateComponent, null),
             React.createElement(PropertyComponents, { headerprop: 'Header from property', contentprop: 'Content from property' }),
             React.createElement(DefaultPropertyComponent, null),
-            React.createElement(ReCaptcha, null)
+            React.createElement(ReCaptcha, null),
+            React.createElement(StateFulComponent, null)
         );
     }
 }
