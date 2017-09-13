@@ -1,0 +1,17 @@
+{
+  "name": "reactapp",
+  "version": "0.0.1",
+  "description": "Sample app for practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"
+  },
+  "author": "mkodekar <rkodekar@zoho.com>",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^15.6.1",
+    "react-recaptcha": "^2.3.5",
+    "webpack": "^3.5.6",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
