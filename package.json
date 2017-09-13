@@ -9,9 +9,15 @@
   "author": "mkodekar <rkodekar@zoho.com>",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "react-dom": "^15.6.1",
     "react-recaptcha": "^2.3.5",
     "webpack": "^3.5.6",
     "webpack-dev-server": "^2.7.1"
+  },
+  "devDependencies": {
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0"
   }
 }
